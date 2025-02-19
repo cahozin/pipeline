@@ -1,0 +1,6 @@
+run_test:
+image: python:3.13.2
+before_script: 
+  - yum install make
+script:
+  - make test
